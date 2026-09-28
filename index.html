@@ -1,16 +1,162 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GAOR</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>GAOR - GoldenAppleOldRecipe</title>
+  <meta name="description"
+        content="GAOR (GoldenAppleOldRecipe) 是一个 Minecraft Mod，致力于恢复经典配方与旧版内容。">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #101418;
+      color: white;
+    }
+
+    nav {
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 8%;
+      border-bottom: 1px solid #2b3238;
+    }
+
+    nav h2 {
+      color: #f4c542;
+    }
+
+    nav a {
+      color: #ccc;
+      text-decoration: none;
+      margin-left: 25px;
+    }
+
+    .hero {
+      min-height: 75vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .hero h1 {
+      font-size: 55px;
+      margin: 0;
+      color: #f4c542;
+    }
+
+    .hero h2 {
+      font-size: 26px;
+      margin-top: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 18px;
+      max-width: 600px;
+      line-height: 1.7;
+    }
+
+    .buttons {
+      margin-top: 25px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 25px;
+      margin: 8px;
+      border-radius: 8px;
+      background: #f4c542;
+      color: #111;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .button.secondary {
+      background: #2b3238;
+      color: white;
+    }
+
+    section {
+      padding: 70px 10%;
+      background: #161b20;
+    }
+
+    section h2 {
+      font-size: 32px;
+    }
+
+    section p {
+      color: #bbb;
+      line-height: 1.8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #777;
+    }
+  </style>
 </head>
 
 <body>
-    <h1>GAOR</h1>
-    <h2>GoldenAppleOldRecipe</h2>
 
-    <p>欢迎来到 GAOR 官方网站！</p>
-    <p>网站施工中……</p>
+<nav>
+  <h2>GAOR</h2>
+
+  <div>
+    <a href="#about">关于</a>
+    <a href="#download">下载</a>
+  </div>
+</nav>
+
+<div class="hero">
+
+  <h1>GAOR</h1>
+
+  <h2>GoldenAppleOldRecipe</h2>
+
+  <p>
+    恢复 Minecraft 中那些消失的经典配方与旧版内容。
+  </p>
+
+  <div class="buttons" id="download">
+    <a class="button" href="#">
+      下载 GAOR
+    </a>
+
+    <a class="button secondary" href="#">
+      Modrinth
+    </a>
+  </div>
+
+</div>
+
+<section id="about">
+
+  <h2>关于 GAOR</h2>
+
+  <p>
+    GAOR（GoldenAppleOldRecipe）是一个 Minecraft Mod。
+    它的目标是重新带回 Minecraft 旧版本中的经典内容，
+    包括旧版配方以及其他已经消失的游戏机制。
+  </p>
+
+</section>
+
+<footer>
+  GAOR Project
+</footer>
+
 </body>
 </html>
